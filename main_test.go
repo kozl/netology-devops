@@ -12,7 +12,7 @@ func TestHello(t *testing.T) {
 
 func TestAnotherHello(t *testing.T) {
 	want := "Hello teamcity!"
-	got := hello("teamcity")
+	got := hello("teamcit")
 	if got != want {
 		t.Errorf("want: %s got: %s", want, got)
 	}
